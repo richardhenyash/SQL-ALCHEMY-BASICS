@@ -13,3 +13,4 @@ Mac: source ./env/bin/activate
 Windows: .\env\Scripts\activate
 Install SQLAlchemy pip install sqlalchemy
 Create requirements file pip freeze > requirements.txt
+Test update notes
