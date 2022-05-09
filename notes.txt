@@ -13,3 +13,21 @@ Mac: source ./env/bin/activate
 Windows: .\env\Scripts\activate
 Install SQLAlchemy pip install sqlalchemy
 Create requirements file pip freeze > requirements.txt
+
+To create a github repository from locally hosted code:
+In the command line, navigate to the root directory of your project.
+Initialize the local directory as a Git repository.
+$ git init -b main
+
+Stage and commit all the files in your project
+$ git add .
+$ git commit -m "initial commit"
+
+Create the new repository on github (login to site)
+
+Connect the repository:
+$ git remote add origin https://github.com/richardhenyash/SQL-ALCHEMY-BASICS.git
+$ git branch -M main
+
+Push to the repository:
+$ git push -u origin main
